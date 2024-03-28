@@ -28,8 +28,7 @@ enum Poderes: String, Codable {
     case manipulacionLuz = "Manipulación de la Luz"
     case manipulacionTiempo = "Manipulación del Tiempo"
     case manipulacionTierra = "Manipulación de la Tierra"
-    case regeneracion = "Regeneración"
     case teleTransportacion = "Teletransportación"
     case visionRayosX = "Visión de Rayos X"
-    case vuelo = "Vuelo"
+
 }

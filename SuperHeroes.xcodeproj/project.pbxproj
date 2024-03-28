@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB6E98B42BB3652B00436893 /* Poderes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6E98B32BB3652B00436893 /* Poderes.swift */; };
+		FB77FCE62BB43F60001C4167 /* SuperHeroeDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB77FCE52BB43F60001C4167 /* SuperHeroeDetailTableViewController.swift */; };
+		FBF060572BB3BA3900EDCCE1 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF060562BB3BA3900EDCCE1 /* CustomTableViewController.swift */; };
+		FBF060592BB3BE7C00EDCCE1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF060582BB3BE7C00EDCCE1 /* CustomTableViewCell.swift */; };
 		FBF8423C2BB26DDF00EE3C99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8423B2BB26DDF00EE3C99 /* AppDelegate.swift */; };
 		FBF8423E2BB26DDF00EE3C99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8423D2BB26DDF00EE3C99 /* SceneDelegate.swift */; };
 		FBF842402BB26DDF00EE3C99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8423F2BB26DDF00EE3C99 /* ViewController.swift */; };
 		FBF842432BB26DDF00EE3C99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBF842422BB26DDF00EE3C99 /* Base */; };
 		FBF842452BB26DE000EE3C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF842442BB26DE000EE3C99 /* Assets.xcassets */; };
 		FBF842482BB26DE000EE3C99 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FBF842472BB26DE000EE3C99 /* Base */; };
+		FBF842502BB26E4700EE3C99 /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = FBF8424F2BB26E4700EE3C99 /* SuperHeroes.json */; };
+		FBF842542BB26E6E00EE3C99 /* SuperHeroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF842532BB26E6E00EE3C99 /* SuperHeroe.swift */; };
+		FBF842582BB26E9B00EE3C99 /* DataInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF842572BB26E9B00EE3C99 /* DataInteractor.swift */; };
+		FBF8425A2BB26EB200EE3C99 /* JSONPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF842592BB26EB200EE3C99 /* JSONPersistence.swift */; };
+		FBF8425D2BB26EFB00EE3C99 /* SuperHeroeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8425C2BB26EFB00EE3C99 /* SuperHeroeLogic.swift */; };
+		FBF842602BB270CC00EE3C99 /* SuperHeroeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF8425F2BB270CC00EE3C99 /* SuperHeroeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB6E98B32BB3652B00436893 /* Poderes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poderes.swift; sourceTree = "<group>"; };
+		FB77FCE52BB43F60001C4167 /* SuperHeroeDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeDetailTableViewController.swift; sourceTree = "<group>"; };
+		FBF060562BB3BA3900EDCCE1 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		FBF060582BB3BE7C00EDCCE1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		FBF842382BB26DDF00EE3C99 /* SuperHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF8423B2BB26DDF00EE3C99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF8423D2BB26DDF00EE3C99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,12 @@
 		FBF842442BB26DE000EE3C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF842472BB26DE000EE3C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF842492BB26DE000EE3C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF8424F2BB26E4700EE3C99 /* SuperHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		FBF842532BB26E6E00EE3C99 /* SuperHeroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroe.swift; sourceTree = "<group>"; };
+		FBF842572BB26E9B00EE3C99 /* DataInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInteractor.swift; sourceTree = "<group>"; };
+		FBF842592BB26EB200EE3C99 /* JSONPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONPersistence.swift; sourceTree = "<group>"; };
+		FBF8425C2BB26EFB00EE3C99 /* SuperHeroeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeLogic.swift; sourceTree = "<group>"; };
+		FBF8425F2BB270CC00EE3C99 /* SuperHeroeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBF060552BB3BA2100EDCCE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBF060562BB3BA3900EDCCE1 /* CustomTableViewController.swift */,
+				FBF060582BB3BE7C00EDCCE1 /* CustomTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		FBF8422F2BB26DDF00EE3C99 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +85,12 @@
 		FBF8423A2BB26DDF00EE3C99 /* SuperHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				FBF060552BB3BA2100EDCCE1 /* View */,
+				FBF8425E2BB270B200EE3C99 /* ViewControllers */,
+				FBF8425B2BB26EEB00EE3C99 /* Logic */,
+				FBF842552BB26E8500EE3C99 /* Interactor */,
+				FBF842522BB26E5D00EE3C99 /* Model */,
+				FBF842512BB26E5100EE3C99 /* Resources */,
 				FBF8423B2BB26DDF00EE3C99 /* AppDelegate.swift */,
 				FBF8423D2BB26DDF00EE3C99 /* SceneDelegate.swift */,
 				FBF8423F2BB26DDF00EE3C99 /* ViewController.swift */,
@@ -65,6 +100,49 @@
 				FBF842492BB26DE000EE3C99 /* Info.plist */,
 			);
 			path = SuperHeroes;
+			sourceTree = "<group>";
+		};
+		FBF842512BB26E5100EE3C99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8424F2BB26E4700EE3C99 /* SuperHeroes.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBF842522BB26E5D00EE3C99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FBF842532BB26E6E00EE3C99 /* SuperHeroe.swift */,
+				FB6E98B32BB3652B00436893 /* Poderes.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FBF842552BB26E8500EE3C99 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FBF842572BB26E9B00EE3C99 /* DataInteractor.swift */,
+				FBF842592BB26EB200EE3C99 /* JSONPersistence.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		FBF8425B2BB26EEB00EE3C99 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8425C2BB26EFB00EE3C99 /* SuperHeroeLogic.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		FBF8425E2BB270B200EE3C99 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8425F2BB270CC00EE3C99 /* SuperHeroeTableViewController.swift */,
+				FB77FCE52BB43F60001C4167 /* SuperHeroeDetailTableViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF842452BB26DE000EE3C99 /* Assets.xcassets in Resources */,
+				FBF842502BB26E4700EE3C99 /* SuperHeroes.json in Resources */,
 				FBF842482BB26DE000EE3C99 /* Base in Resources */,
 				FBF842432BB26DDF00EE3C99 /* Base in Resources */,
 			);
@@ -138,9 +217,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB77FCE62BB43F60001C4167 /* SuperHeroeDetailTableViewController.swift in Sources */,
+				FBF842582BB26E9B00EE3C99 /* DataInteractor.swift in Sources */,
 				FBF842402BB26DDF00EE3C99 /* ViewController.swift in Sources */,
+				FBF060592BB3BE7C00EDCCE1 /* CustomTableViewCell.swift in Sources */,
+				FBF8425D2BB26EFB00EE3C99 /* SuperHeroeLogic.swift in Sources */,
+				FB6E98B42BB3652B00436893 /* Poderes.swift in Sources */,
+				FBF060572BB3BA3900EDCCE1 /* CustomTableViewController.swift in Sources */,
+				FBF842542BB26E6E00EE3C99 /* SuperHeroe.swift in Sources */,
+				FBF8425A2BB26EB200EE3C99 /* JSONPersistence.swift in Sources */,
 				FBF8423C2BB26DDF00EE3C99 /* AppDelegate.swift in Sources */,
 				FBF8423E2BB26DDF00EE3C99 /* SceneDelegate.swift in Sources */,
+				FBF842602BB270CC00EE3C99 /* SuperHeroeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
